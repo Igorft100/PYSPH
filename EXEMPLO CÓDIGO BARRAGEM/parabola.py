@@ -298,7 +298,7 @@ def get_2d_circle(dx=0.01, r=0.5, center=np.array([0.0, 0.0])):
     return x + center[0], y + center[1]
 
 
-def get_2d_parabola(dx=0.01, r=1.0, center=np.array([0.0, 0.0]),
+def get_2d_hollow_circle(dx=0.01, r=1.0, center=np.array([0.0, 0.0]),
                          num_layers=2, inside=True):
     """
     Generates a hollow 2d circle with some number of layers either on the
